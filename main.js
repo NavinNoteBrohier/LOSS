@@ -3,25 +3,18 @@
 var canvas = document.getElementById("GAMECANVAS");
 var context = canvas.getContext("2d");
 var Background = document.createElement("img");
-	Background.src  = "background.png"
-
-function Collision(x1, y1, h1, w1, x2, y2, h2, w2)
-{
-	if(y2 + h2 > y1 ||
-	x2 + w2 > x1 ||
-	y1 + h1 < y2 ||
-	x2 + w2 < x2)
-	
-	
-}	
+	Background.src  = "background.png";
+var CANVASHEIGHT = canvas.height;
+var CANVASWIDTH = canvas.width;
 	
 function run()
 {
 	
+	//context.fillStyle = "#0000"
+	//context.fillRect(0,0,CANVASWIDTH,CANVASHEIGHT);
+	//context.endPath;
 	
-	
-	
-	context.drawImage(Background, 0, 0)
+	context.drawImage(Background, 0, 0);
 };
 
 (function() {
