@@ -2,19 +2,13 @@
 //CONSTANTS
 var canvas = document.getElementById("GAMECANVAS");
 var context = canvas.getContext("2d");
-var Background = document.createElement("img");
-	Background.src  = "background.png";
 var CANVASHEIGHT = canvas.height;
 var CANVASWIDTH = canvas.width;
-	
+
+
 function run()
 {
-	
-	//context.fillStyle = "#0000"
-	//context.fillRect(0,0,CANVASWIDTH,CANVASHEIGHT);
-	//context.endPath;
-	
-	context.drawImage(Background, 0, 0);
+	Menu();
 };
 
 (function() {

@@ -1,39 +1,49 @@
 // OBJECTS
 
-//WALLS
-var WallX = {
-
+//WALLS & BACKGROUND
+var WallY =
+{
+	height : 640,
+	width : 20,
+	image : document.createElement("img"),
+	posX : 0,
+	posY : 0
 };
+WallY.image.src = "wallY.png";
 
-var WallY = {
-	height:640,
-	width:20,
+var WallX = 
+{
+	height:20,
+	width:1080,
+	image:document.createElement("img"),
+	posX:0,
+	posy:0
+}
+WallX.image.src = "wallX.png";
+
+var Background =
+{
 	image:document.createElement("img")
-};
-Wally.src = "wallY.png";
-
-var WallX1 = {
+}
+	Background.image.src  = "background.png";
 	
-};
-
-var WallX2 = {
+//BUTTONS MENU
+var MenuItem1 =
+{
+	image:document.createElement("img"),
+}	
+	MenuItem1.image.src = "ME1.png";
 	
-};
+// OBJECTS  - KEYS AND THEN KEYHOLES
 
-var Door = {
+/*
+var flower = 
+{
 	
-};
+}
 
-//KEYS
-var Flower = {
-	height : ,
-	width : ,
-	image : document.createElement("img")
-};
-
-//KEY HOLES
-var Vase = {
-	height :,
-	width :,
-	image : document.createElement("img")	
-};
+var flowerPot
+{
+	
+}
+*/
